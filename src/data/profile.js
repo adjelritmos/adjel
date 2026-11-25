@@ -6,8 +6,8 @@ export const profile = {
   education: 'Informática de Gestão · Mestrado em Electrotecnia e Computação',
   location: 'Bragança, Portugal',
   email: 'adjelrita725@gmail.com',
-  linkedin: 'https://www.linkedin.com/in/adjel-rita-093049315',
-  linkedinLabel: 'linkedin.com/in/adjel-rita-093049315',
+  linkedin: 'https://www.linkedin.com/in/adjelritmo-java',
+  linkedinLabel: 'linkedin.com/in/adjelritmo-java',
   summary:
     'Licenciado em Informática de Gestão, com sólida formação em sistemas de informação, programação e análise de dados. Desenvolvo aplicações móveis, web e desktop, com experiência full stack — das interfaces de utilizador às bases de dados e APIs. Adapto-me facilmente a diferentes tecnologias e frameworks para entregar soluções completas e funcionais.',
   languages: [
@@ -73,7 +73,7 @@ export const profile = {
 
   projects: [
     { name: 'Plataforma EDI⁺ Tools', tag: 'CeDRI · 2026', desc: 'Plataforma full stack desenvolvida no CeDRI.', url: 'https://edi.ipb.pt' },
-    { name: 'Portal web ChemPixels', tag: 'CeDRI · em desenvolvimento', desc: 'Portal web com frontend em React e backend em Python.' },
+    { name: 'Portal web ChemPixels', tag: 'CeDRI · em desenvolvimento', desc: 'Portal web com frontend em React e backend em Python.', url: 'https://chempixel.cedri.ipb.pt' },
     { name: 'Elegantie Invities', tag: 'Pessoal · em desenvolvimento', desc: 'Projeto pessoal full stack.' },
     { name: 'Academia de Treinamento Evangelístico', tag: 'Projeto final de licenciatura', desc: 'Plataforma educacional (mobile + desktop) com módulos progressivos, backend com gestão de utilizadores, conteúdos e comandos de voz.' },
     { name: 'AssemblyGram', tag: 'ESTiG/IPB · 2026', desc: 'Conversação natural com reconhecimento (speech-to-text) e síntese de voz (text-to-speech).' },
