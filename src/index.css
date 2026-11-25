@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+html, body, #portifolio { margin: 0; height: 100%; background: #0f1222; }
+
+@keyframes fade-in { from { opacity: 0 } to { opacity: 1 } }
+@keyframes pop { from { opacity: 0; transform: scale(0.92) translateY(8px) } to { opacity: 1; transform: none } }
+.fade-in { animation: fade-in 0.6s ease both; }
+.screen-fade { animation: fade-in 0.8s ease both; }
+.window-pop { animation: pop 0.25s ease-out both; }
+.bubble-pop { animation: pop 0.3s ease-out both; }
+.screen-scroll::-webkit-scrollbar { width: 8px; }
+.screen-scroll::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.2); border-radius: 8px; }
